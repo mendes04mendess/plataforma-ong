@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: teal;
+    color: black;
+    line-height: 1.6;
+}
+
+header {
+    background-color: linear-gradien(135deg, #004d4d, #008080);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 6px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+main section {
+    background-color: white;
+    margin-bottom: 28px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+main h2 {
+    color: teal;
+    margin-top: 0;
+    font-size: 28px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+main img {
+    max-width: 100%;
+    width: 100%;
+    height: 280px;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+main p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+main a {
+    color: teal;
+    font-weight: bold;
+    text-underline-offset: 4px;
+    transition: color 0.3s;
+}
+
+main a:hover {
+    color: teal;
+}
+
+.chave-pix {
+    background-color: white;
+    border: 1px solid teal;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px auto;
+    text-align: center;
+    color: teal;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+footer {
+    background: linear-gradient(135deg, #004d4d, teal);
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    line-height: 1.6;
+    margin-top: 40px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 24px;
+    border: 1px solid white;
+    border-radius: 12px;
+    border-left: 5px solid teal;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+article h3 {
+    color: #004d4d;
+    margin-top: 0;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+address {
+    font-style: normal;
+    line-height: 1.8;
+}
+
+nav a:hover {
+    color: teal;
+    background-color: white;
+}
+
+nav a:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 3px;
+}
+
+button {
+    background-color: linear-gradient(135deg, teal, #004d4d);
+    color: teal;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 77, 77, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 7px 15px rgba(0, 77, 77, 0.3);
+}
+
+form button {
+    display: block;
+    margin: 10px auto;
+    min-width: 200px;
+    padding: 14px 28px; 
+    font-size: 17px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid powderblue;
+    border-color: teal;
+    background-color: #f7ffff;
+    box-shadow: 0 0 0 3px rgba(0, 102, 102, 0.12);
+}
+
+label {
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+legend {
+    color: teal;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+    margin-left: 5px;
+}
+
+fieldset {
+    border: 1px solid teal;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    background-color: white;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
+}
+
+#mensagem {
+    color: teal;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+        padding: 12px;
+        background-color: teal;
+        border: 1px solid rgba(255, 255, 255, 0.5); 
+        border-radius: 8px; 
+        text-align: center; 
+        color: white; 
+        text-decoration: none; 
+        font-weight: bold;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    legend {
+        font-size: 18px;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    main section { 
+        padding: 20px; 
+    } 
+    
+    main h2 { 
+        font-size: 24px; 
+    } 
+    
+    article h3 { 
+        font-size: 19px; 
+    } 
+    
+    main img { 
+        height: 220px; 
+    }
+}
+
+form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button:focus-visible {
+    outline: 3px solid #004d4d;
+    outline-offset: 3px;
+}
+
+.botao-doacao {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 14px 28px;
+    background-color: linear-gradient(135deg, teal, #004d4d);
+    color: teal;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(55, 145, 145, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.botao-doacao:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 7px 15px rgba(0, 77, 77, 0.3);
+}
+
+.botao-doacao:focus-visible {
+    outline: 3px solid #004d4d;
+    outline-offset: 3px;
+}
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.chave-pix {
+    background-color: white;
+    border: 1px solid teal;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    color: teal;
+}
+
+.destaque {
+    font-size: 19px; 
+    line-height: 1.8; 
+    color: #405b54; 
+    max-width: 800px; 
+    margin: 0 auto;
+}
